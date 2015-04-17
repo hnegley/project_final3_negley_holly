@@ -5,11 +5,14 @@ $(document).ready(function() {
         longitude: -71.094455
         });
 
-      $container.isotope({
-        itemSelector: '.element-item',
-        layoutMode: 'fitRows',
-        ...
-        })
+        $('#container').isotope({
+        // options...
+        itemSelector: '.item',
+        masonry: {
+        columnWidth: 200
+        }
+        });
+
 }
 
 

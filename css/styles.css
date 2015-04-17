@@ -129,6 +129,8 @@ a:active {
 	padding-bottom: 5%;
 }
 
+.item { width: 25%; }
+.item.w2 { width: 50%; }
 
 
 
