@@ -1,7 +1,6 @@
-
 @font-face {
 	font-family:"Authentic Ratatouille";
-	src:url(../../Desktop/ps_negley_holly/Authentic_Ratatouille.otf)
+	src:url(../../project_final3_negley_holly/Authentic_Ratatouille.otf)
 	}
 
 body{
@@ -12,7 +11,8 @@ body{
 	}
 
 header img{
-		width:100%;
+		width:70%;
+		padding-left: 13%
 		}
 
 .content {
@@ -30,11 +30,12 @@ nav ul, li {
 	font-size: 20px;
 	}
 
+
 @media screen and (min-width: 600px) and (max-width: 960px) {
 	
 	header img{
-		width:70%;
-		padding-left: 20%;
+		width:40%;
+		padding-left: 30%;
 		}
 
 	nav {
@@ -46,12 +47,13 @@ nav ul, li {
 		padding-right: 2%;
 		font-size: 25px;
 		}
+
 }
 
 @media screen and (min-width: 960px) {
 	header img{
-		width:60%;
-		padding-left: 20%;
+		width:40%;
+		padding-left: 30%;
 		}
 	
 	.content {
@@ -64,7 +66,7 @@ nav ul, li {
 		}
 
 	nav ul {
-			padding-left: %;
+			padding-top: 2%;
 		}
 	
 	nav ul, li {
@@ -79,6 +81,7 @@ h1{
 	font-family: "Authentic Ratatouille";
 	font-size: 65px;
 	color: #c9a305;
+	padding-top: 2%;
 	}
 
 h2{
@@ -91,6 +94,7 @@ h2{
 	width: 100%;
 	padding-top: 5%
 }
+
 	
 a:link {
     text-decoration: none;
@@ -108,3 +112,15 @@ a:hover {
 a:active {
 	color:white;
 	}
+
+.left_align {
+	text-align: left;
+	padding-left: 2%;
+}
+
+
+
+
+
+
+
