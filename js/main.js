@@ -1,15 +1,9 @@
+$(document).ready(function() {
 
-$( document ).ready(function() {
-
-    $('#map_canvas').googleMaps({
-        latitude: 42.351505,
-        longitude: -71.094455
+      $('#map_canvas').googleMaps({
+        latitude: 33.6625,
+        longitude: 95.5477
         });
-
-    $(function(){
-        $('#Container').mixItUp();  
-        });
-
 
 }
 
