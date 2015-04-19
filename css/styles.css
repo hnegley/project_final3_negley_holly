@@ -1,14 +1,23 @@
 @font-face {
 	font-family:"Authentic Ratatouille";
-	src:url(../../project_final3_negley_holly/Authentic_Ratatouille.otf)
+	src:url(../../project_final3_negley_holly/fonts/Authentic_Ratatouille.otf)
 	}
 
+#content1 {
+	width:53%;
+    margin:0 auto;
+    padding: 5% 8% 10% 8%;
+    background-color: rgba(79,111,132,.90);
+
+}
+
 body{
-    background-color: #4f6f84;
 	font-family: "Century Gothic";
 	color: #efe1e1;
 	clear:both;
 	}
+
+
 
 header img{
 		width:70%;
@@ -129,7 +138,13 @@ a:active {
 	padding-bottom: 5%;
 }
 
+#sticker{
+    float:right;
+}
 
+#sticker span{
+    font-weight: bold;
+}
 
 
 
