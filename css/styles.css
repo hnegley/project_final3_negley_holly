@@ -1,6 +1,6 @@
 @font-face {
 	font-family:"Authentic Ratatouille";
-	src="fonts/Authentic_Ratatouille.otf")
+	url(fonts/Authentic_Ratatouille.otf);
 	}
 
 #content1 {
