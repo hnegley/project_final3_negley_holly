@@ -28,6 +28,10 @@ header img{
 	text-align: center;
 }
 
+.content img{
+	width:50%;
+}
+
 nav {
 	text-align: center;
 }
